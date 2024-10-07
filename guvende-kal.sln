@@ -7,27 +7,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E79A4974-1C0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C9F29AD2-83F1-4512-B6EF-9322F7223412}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GK.Domain", "src\Core\GK.Domain\GK.Domain.csproj", "{112F1446-21D8-4E9D-841B-0A31ED89E27E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GK.Domain", "src\Core\GK.Domain\GK.Domain.csproj", "{112F1446-21D8-4E9D-841B-0A31ED89E27E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GK.Application", "src\Core\GK.Application\GK.Application.csproj", "{C9A32C0A-CE12-4D10-9A32-D8211362FB94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GK.Application", "src\Core\GK.Application\GK.Application.csproj", "{C9A32C0A-CE12-4D10-9A32-D8211362FB94}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{69ECD713-C077-496B-A0FC-9E1E43787481}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GK.Persistance", "src\Infrastructure\GK.Persistance\GK.Persistance.csproj", "{5BA41E58-5A8E-4D71-BAFE-92E970ADA6EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GK.Persistance", "src\Infrastructure\GK.Persistance\GK.Persistance.csproj", "{5BA41E58-5A8E-4D71-BAFE-92E970ADA6EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GK.Infrastructure", "src\Infrastructure\GK.Infrastructure\GK.Infrastructure.csproj", "{EE902305-9D33-453B-8436-3996CBCBD7B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GK.Infrastructure", "src\Infrastructure\GK.Infrastructure\GK.Infrastructure.csproj", "{EE902305-9D33-453B-8436-3996CBCBD7B3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{230384E1-EAB1-426B-889D-6778E75A0317}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GK.Api", "src\Presentation\GK.Api\GK.Api.csproj", "{ADCA8229-9B20-493D-B8BD-AE9AD7307ABA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GK.Api", "src\Presentation\GK.Api\GK.Api.csproj", "{ADCA8229-9B20-493D-B8BD-AE9AD7307ABA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{112F1446-21D8-4E9D-841B-0A31ED89E27E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -51,6 +48,9 @@ Global
 		{ADCA8229-9B20-493D-B8BD-AE9AD7307ABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADCA8229-9B20-493D-B8BD-AE9AD7307ABA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C9F29AD2-83F1-4512-B6EF-9322F7223412} = {E79A4974-1C06-47CA-82F9-9ACF18A14CD4}
 		{112F1446-21D8-4E9D-841B-0A31ED89E27E} = {C9F29AD2-83F1-4512-B6EF-9322F7223412}
@@ -60,5 +60,8 @@ Global
 		{EE902305-9D33-453B-8436-3996CBCBD7B3} = {69ECD713-C077-496B-A0FC-9E1E43787481}
 		{230384E1-EAB1-426B-889D-6778E75A0317} = {E79A4974-1C06-47CA-82F9-9ACF18A14CD4}
 		{ADCA8229-9B20-493D-B8BD-AE9AD7307ABA} = {230384E1-EAB1-426B-889D-6778E75A0317}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC1987B2-DC2E-4F1E-9A68-AD8147F62858}
 	EndGlobalSection
 EndGlobal
